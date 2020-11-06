@@ -1,23 +1,23 @@
 # Site
-name: 'Mundana'
+name: 'Women In Tech 泛宇宙科技姐妹'
 description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
+logo: 'assets/images/Option 5a.png'
+favicon: 'assets/images/Option 5a.png'
+baseurl: '/home'
 disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+email: '@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
 permalink: /:title/
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+
 authors:
     sal:
       name:           Sal
@@ -27,14 +27,14 @@ authors:
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+    泛宇宙小编:
+      name:           泛宇宙小编
+      site:           https://mp.weixin.qq.com/s?__biz=MzU5ODAzMzc5NQ==&mid=2247483800&idx=1&sn=688b58842c28b02f57aa3511e4542a63&chksm=fe4b1574c93c9c62e0be32e5dfdf3d75a51b653b7ce99a32c188cc116004e12da0da20871986&token=889979630&lang=zh_CN#rd
+      avatar:         /assets/images/Option 5b.png
+      bio:            "这里泛宇宙小编~"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
- 
+
 # Defaults
 defaults:
 
@@ -45,13 +45,13 @@ defaults:
       layout: post
       author: sal
       avatar: /assets/images/avatar1.jpg
-      
+
   # all pages
   - scope:
       path: "_pages"
     values:
       layout: page
-      
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
